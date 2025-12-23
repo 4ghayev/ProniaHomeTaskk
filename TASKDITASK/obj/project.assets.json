@@ -7355,11 +7355,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\huawei\\Desktop\\GenclerBirliyi\\TASKDITASK\\TASKDITASK.csproj",
+      "projectUniqueName": "C:\\Users\\huawei\\Source\\Repos\\ProniaSecondTask\\TASKDITASK\\TASKDITASK.csproj",
       "projectName": "TASKDITASK",
-      "projectPath": "C:\\Users\\huawei\\Desktop\\GenclerBirliyi\\TASKDITASK\\TASKDITASK.csproj",
+      "projectPath": "C:\\Users\\huawei\\Source\\Repos\\ProniaSecondTask\\TASKDITASK\\TASKDITASK.csproj",
       "packagesPath": "C:\\Users\\huawei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\huawei\\Desktop\\GenclerBirliyi\\TASKDITASK\\obj\\",
+      "outputPath": "C:\\Users\\huawei\\Source\\Repos\\ProniaSecondTask\\TASKDITASK\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

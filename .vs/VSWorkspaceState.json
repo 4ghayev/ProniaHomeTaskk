@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\MainProject",
-    "\\MainProject\\Areas",
-    "\\MainProject\\Areas\\Admin",
-    "\\MainProject\\Areas\\Admin\\Controllers",
-    "\\MainProject\\Areas\\Admin\\Views",
-    "\\MainProject\\Areas\\Admin\\Views\\Dashboard",
-    "\\MainProject\\Areas\\Admin\\Views\\Shared"
+    ""
   ],
-  "SelectedNode": "\\MainProject\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+  "SelectedNode": "\\TASKDITASK.sln",
   "PreviewInSolutionExplorer": false
 }

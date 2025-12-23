@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol;
 using System.Threading.Tasks;
 using TASKDITASK.Contexts;
 using TASKDITASK.Models;
@@ -23,9 +24,9 @@ public class ShippingController : Controller
     }
 
     [HttpGet]
-    public IActionResult Create() 
-    { 
-    return View();
+    public IActionResult Create()
+    {
+        return View();
     }
     [HttpPost]
     public async Task<IActionResult> Create(ShippingArea items)
@@ -36,7 +37,7 @@ public class ShippingController : Controller
         }
 
 
-       await _context.Areas.AddAsync(items);
+        await _context.Areas.AddAsync(items);
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
@@ -54,4 +55,42 @@ public class ShippingController : Controller
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
+
+    [HttpGet]
+    public async Task<IActionResult> Update(int id)
+    {
+        var item = await _context.Areas.FindAsync(id);
+        if (item is not { })
+        {
+            return NotFound();
+        }
+        return View(item);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Update(ShippingArea area)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View(); 
+        }
+
+        var existArea = await _context.Areas.FindAsync(area.Id);
+        if (existArea == null)
+        {
+            return NotFound();
+        }
+
+        existArea.Title = area.Title;
+        existArea.Description = area.Description;
+        existArea.ImagePath = area.ImagePath;
+
+        _context.Areas.Update(existArea);
+        await _context.SaveChangesAsync();
+
+     
+        return RedirectToAction(nameof(Index)); 
+    }
+
+
 }

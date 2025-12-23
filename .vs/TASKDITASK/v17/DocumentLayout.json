@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\huawei\\Desktop\\GenclerBirliyi\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B45A7-9925-4E34-9929-56428CFDCF95}|TASKDITASK\\TASKDITASK.csproj|c:\\users\\huawei\\source\\repos\\proniasecondtask\\taskditask\\areas\\admin\\views\\shipping\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA7B45A7-9925-4E34-9929-56428CFDCF95}|TASKDITASK\\TASKDITASK.csproj|solutionrelative:taskditask\\areas\\admin\\views\\shipping\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B45A7-9925-4E34-9929-56428CFDCF95}|TASKDITASK\\TASKDITASK.csproj|c:\\users\\huawei\\source\\repos\\proniasecondtask\\taskditask\\areas\\admin\\views\\shipping\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA7B45A7-9925-4E34-9929-56428CFDCF95}|TASKDITASK\\TASKDITASK.csproj|solutionrelative:taskditask\\areas\\admin\\views\\shipping\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B45A7-9925-4E34-9929-56428CFDCF95}|TASKDITASK\\TASKDITASK.csproj|c:\\users\\huawei\\source\\repos\\proniasecondtask\\taskditask\\areas\\admin\\controllers\\shippingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B45A7-9925-4E34-9929-56428CFDCF95}|TASKDITASK\\TASKDITASK.csproj|solutionrelative:taskditask\\areas\\admin\\controllers\\shippingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B45A7-9925-4E34-9929-56428CFDCF95}|TASKDITASK\\TASKDITASK.csproj|c:\\users\\huawei\\source\\repos\\proniasecondtask\\taskditask\\areas\\admin\\views\\shipping\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA7B45A7-9925-4E34-9929-56428CFDCF95}|TASKDITASK\\TASKDITASK.csproj|solutionrelative:taskditask\\areas\\admin\\views\\shipping\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B45A7-9925-4E34-9929-56428CFDCF95}|TASKDITASK\\TASKDITASK.csproj|c:\\users\\huawei\\source\\repos\\proniasecondtask\\taskditask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B45A7-9925-4E34-9929-56428CFDCF95}|TASKDITASK\\TASKDITASK.csproj|solutionrelative:taskditask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Index.cshtml",
+              "RelativeDocumentMoniker": "TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Index.cshtml",
+              "ToolTip": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Index.cshtml",
+              "RelativeToolTip": "TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T17:53:54.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Create.cshtml",
+              "RelativeDocumentMoniker": "TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Create.cshtml",
+              "ToolTip": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Create.cshtml",
+              "RelativeToolTip": "TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T17:38:29.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Update.cshtml",
+              "RelativeDocumentMoniker": "TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Update.cshtml",
+              "ToolTip": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Update.cshtml",
+              "RelativeToolTip": "TASKDITASK\\Areas\\Admin\\Views\\Shipping\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T17:37:57.53Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -38,6 +98,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\TASKDITASK\\Program.cs",
+              "RelativeDocumentMoniker": "TASKDITASK\\Program.cs",
+              "ToolTip": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\TASKDITASK\\Program.cs",
+              "RelativeToolTip": "TASKDITASK\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T17:26:52.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShippingController.cs",
+              "DocumentMoniker": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\TASKDITASK\\Areas\\Admin\\Controllers\\ShippingController.cs",
+              "RelativeDocumentMoniker": "TASKDITASK\\Areas\\Admin\\Controllers\\ShippingController.cs",
+              "ToolTip": "C:\\Users\\huawei\\source\\repos\\ProniaSecondTask\\TASKDITASK\\Areas\\Admin\\Controllers\\ShippingController.cs",
+              "RelativeToolTip": "TASKDITASK\\Areas\\Admin\\Controllers\\ShippingController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwEIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T17:34:42.931Z",
+              "EditorCaption": ""
             }
           ]
         },
