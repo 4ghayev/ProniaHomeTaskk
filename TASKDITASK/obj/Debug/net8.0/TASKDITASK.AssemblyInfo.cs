@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TASKDITASK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc187b6729284a03f9d81e003d6da600861cc790")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cb05ce3e083c48c8ddd2fe0caedbeb24438067e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TASKDITASK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TASKDITASK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

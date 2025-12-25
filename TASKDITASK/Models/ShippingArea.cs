@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using TASKDITASK.Models.Common;
 namespace TASKDITASK.Models;
 
-public class ShippingArea
+public class ShippingArea : BaseEntity
 {
-    public int Id { get; set; }
+    
     [MaxLength(15)]
     [MinLength(5)]
     public string Title { get; set; } = null!;

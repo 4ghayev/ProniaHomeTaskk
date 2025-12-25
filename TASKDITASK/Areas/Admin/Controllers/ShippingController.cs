@@ -68,22 +68,22 @@ public class ShippingController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Update(ShippingArea area)
+    public async Task<IActionResult> Update(ShippingArea item)
     {
         if (!ModelState.IsValid)
         {
             return View(); 
         }
 
-        var existArea = await _context.Areas.FindAsync(area.Id);
+        var existArea = await _context.Areas.FindAsync(item.Id);
         if (existArea == null)
         {
             return NotFound();
         }
 
-        existArea.Title = area.Title;
-        existArea.Description = area.Description;
-        existArea.ImagePath = area.ImagePath;
+        existArea.Title = item.Title;
+        existArea.Description = item.Description;
+        existArea.ImagePath = item.ImagePath;
 
         _context.Areas.Update(existArea);
         await _context.SaveChangesAsync();
